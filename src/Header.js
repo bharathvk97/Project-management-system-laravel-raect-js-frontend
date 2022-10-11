@@ -20,7 +20,7 @@ function Header(props) {
           <Nav className="mr-auto navbar_wrapper">
             {
          
-            user != undefined || user != null || test==true?
+            user != undefined || user != null?
             
               <>
               <Link to="/projectlist">Project List</Link>
